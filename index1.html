@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Veltech University Login</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(to right, #0056b3, #0a84ff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .login-container {
+      background: #ffffff;
+      padding: 40px 50px;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+      width: 360px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 120px;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      margin-bottom: 25px;
+      color: #003366;
+      font-size: 22px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0 20px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    input[type="text"]:focus,
+    input[type="password"]:focus {
+      border-color: #0056b3;
+      outline: none;
+      box-shadow: 0 0 4px rgba(0, 86, 179, 0.3);
+    }
+
+    button {
+      width: 100%;
+      background-color: #0056b3;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #004099;
+      transform: scale(1.02);
+    }
+
+    .footer-text {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <img src="https://upload.wikimedia.org/wikipedia/en/3/3c/Veltech_Logo.png" alt="Veltech University Logo" class="logo" />
+    <h2>Veltech University Login</h2>
+    <form>
+      <input type="text" placeholder="Username" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+    <p class="footer-text">© 2025 Veltech University</p>
+  </div>
+</body>
+</html>
